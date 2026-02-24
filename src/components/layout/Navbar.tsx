@@ -91,12 +91,14 @@ export default function Navbar() {
             >
                 <div className="flex flex-col items-center gap-6 py-6 bg-black/95 backdrop-blur-md text-gray-200 tracking-[0.15em] text-sm">
 
-                    <a href="#inicio" onClick={() => setMenuOpen(false)} className="hover:text-[#C0847A] transition">
+                    <Link
+                        to="/"
+                        onClick={() => setMenuOpen(false)}
+                        className="hover:text-[#C0847A] transition"
+                    >
                         INICIO
-                    </a>
-                    <a href="#servicios" onClick={() => setMenuOpen(false)} className="hover:text-[#C0847A] transition">
-                        SERVICIOS
-                    </a>
+                    </Link>
+
                     <Link
                         to="/portafolio"
                         onClick={() => setMenuOpen(false)}
@@ -104,12 +106,22 @@ export default function Navbar() {
                     >
                         PORTAFOLIO
                     </Link>
-                    <a href="#sobre-mi" onClick={() => setMenuOpen(false)} className="hover:text-[#C0847A] transition">
+
+                    <Link
+                        to="/sobre-mi"
+                        onClick={() => setMenuOpen(false)}
+                        className="hover:text-[#C0847A] transition"
+                    >
                         SOBRE MÍ
-                    </a>
-                    <a href="#contacto" onClick={() => setMenuOpen(false)} className="hover:text-[#C0847A] transition">
+                    </Link>
+
+                    <Link
+                        to="/contacto"
+                        onClick={() => setMenuOpen(false)}
+                        className="hover:text-[#C0847A] transition"
+                    >
                         CONTACTO
-                    </a>
+                    </Link>
 
                 </div>
             </div>

@@ -17,7 +17,7 @@ const servicios = [
     {
         titulo: "Peinado",
         imagen:
-            "https://res.cloudinary.com/dzzdheubl/image/upload/v1771875557/peina1_aarvsx.jpg",
+            "https://res.cloudinary.com/dzzdheubl/image/upload/v1771954947/peina1_z9frv0.jpg",
         link: "/peinado",
     },
     {
@@ -45,25 +45,46 @@ export default function Servicios() {
             <div className="max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
                 {servicios.map((servicio, index) => (
                     <Link key={index} to={servicio.link}>
+
                         <motion.div
                             className="relative group cursor-pointer overflow-hidden rounded-2xl md:rounded-none aspect-[3/4]"
+                            initial={{ opacity: 0, y: 40 }}
+                            whileInView={{ opacity: 1, y: 0 }}
+                            transition={{ duration: 0.6 }}
+                            viewport={{ once: false }}
                             whileHover={{ scale: 1.02 }}
-                            transition={{ duration: 0.3 }}
                         >
                             {/* Imagen */}
-                            <img
+                            <motion.img
                                 src={servicio.imagen}
                                 alt={servicio.titulo}
-                                className="w-full h-full object-cover transition duration-700 group-hover:scale-110"
+                                className="w-full h-full object-cover"
+                                whileHover={{ scale: 1.1 }}
+                                transition={{ duration: 0.6 }}
                             />
 
-                            {/* Overlay */}
-                            <div className="absolute inset-0 bg-black/50 opacity-0 group-hover:opacity-100 transition duration-500 flex items-center justify-center">
-                                <span className="text-white text-2xl md:text-3xl font-serif tracking-wide">
-                                    {servicio.titulo}
-                                </span>
+                            {/* Overlay centrado elegante */}
+                            <div
+                                className="
+      absolute inset-0 flex items-center justify-center
+      bg-black/20 sm:bg-black/0
+      sm:group-hover:bg-black/50
+      transition duration-500
+    "
+                            >
+    <span
+        className="
+        text-white text-2xl md:text-3xl font-serif tracking-wide
+        opacity-100 sm:opacity-0
+        sm:group-hover:opacity-100
+        transition duration-500
+      "
+    >
+      {servicio.titulo}
+    </span>
                             </div>
                         </motion.div>
+
                     </Link>
                 ))}
             </div>

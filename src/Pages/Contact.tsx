@@ -96,7 +96,7 @@ export default function Contact() {
                         Email
                     </h3>
                     <p className="mt-4 text-gray-600">
-                        contacto@dianaportilla.com
+                        dianak-rp@hotmail.com
                     </p>
                 </motion.div>
 
