@@ -3,7 +3,7 @@ import SEO from "../components/SEO"
 
 const sociales = [
     {
-        nombre: "Maquillaje Social Glam",
+        nombre: "Maquillaje Social",
         imagen:
             "https://res.cloudinary.com/dzzdheubl/image/upload/v1771884370/social5_b4unim.jpg",
         texto:
@@ -24,11 +24,11 @@ const sociales = [
             "Propuestas equilibradas que realzan la belleza natural con técnicas profesionales que aportan frescura y definición.",
     },
     {
-        nombre: "Maquillaje Editorial",
+        nombre: "Maquillaje Ojos Ahumados",
         imagen:
-            "https://res.cloudinary.com/dzzdheubl/image/upload/f_auto,q_auto,c_fill,ar_3:4,g_auto/v1771524481/social1_gemqsi.jpg",
+            "https://res.cloudinary.com/dzzdheubl/image/upload/v1772051549/social06_ai0mdl.jpg",
         texto:
-            "Inspirado en tendencias modernas, este estilo aporta carácter, presencia y un acabado fotográfico impecable.",
+            "Maquillaje elegante y sofisticado que destaca unos intensos ojos ahumados en tonos oscuros, combinados con una piel luminosa y labios en tono nude.",
     },
     {
         nombre: "Evento Especial",

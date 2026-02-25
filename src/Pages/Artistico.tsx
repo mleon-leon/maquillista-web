@@ -3,7 +3,7 @@ import SEO from "../components/SEO"
 
 const artistico = [
     {
-        nombre: "Maquillaje Artístico Editorial",
+        nombre: "Maquillaje Artístico Samurai",
         imagen:
             "https://res.cloudinary.com/dzzdheubl/image/upload/v1771883675/art5_zoq9sg.jpg",
         texto:
@@ -24,7 +24,7 @@ const artistico = [
             "Maquillaje artístico inspirado en el Sombrerero Loco, con piel porcelana, contrastes de color en los ojos y detalles teatrales que crean un personaje fantástico, expresivo y lleno de personalidad.",
     },
     {
-        nombre: "Caracterización Artística",
+        nombre: "Caracterización Samurai",
         imagen:
             "https://res.cloudinary.com/dzzdheubl/image/upload/v1771883671/art6_l5eenw.jpg",
         texto:

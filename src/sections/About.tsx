@@ -60,7 +60,7 @@ export default function About() {
 
                     {/* Imagen principal RESPONSIVE */}
                     <motion.img
-                        src="https://res.cloudinary.com/dzzdheubl/image/upload/v1771876495/WhatsApp_Image_2026-02-22_at_2.54.25_PM_2_y87mz8.jpg"
+                        src="https://res.cloudinary.com/dzzdheubl/image/upload/v1771002596/self-diana_kguyba.jpg"
                         alt="Diana Portilla maquilladora profesional"
                         whileHover={{ scale: 1.03 }}
                         transition={{ duration: 0.4 }}

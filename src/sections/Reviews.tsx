@@ -5,31 +5,31 @@ import { motion } from "framer-motion"
 const reviews = [
     {
         text: "Dianita me emocionó ver las fotos de la boda, gracias por su cariño y trabajo ! Mi familia quedó encantada con el maquillaje y su profesionalismo! Gracias por el cariño 🥰",
-        name: "Glenda Benavides",
+        name: "Glenda B.",
     },
     {
         text: "Quería agradecerle por todo lo que hizo por nosotros, créame que me sentí fascinada con sus servicios. 100% recomendada, le juro que me enamoré. Gracias por todo, siga adelante que es una excelente profesional!",
-        name: "J. Alvarado",
+        name: "Jenny A.",
     },
     {
         text: "Estimada Diana le agradezco el maquillaje y peinado, sé que son horas de trabajo y nos encantó, mi familia está consultando su contacto para un evento para el mes de diciembre!",
-        name: "Tatiana Navas",
+        name: "Tatiana N.",
     },
     {
         text: "Muchas gracias mi Dianita por todo, que Dios te bendiga siempre. Se que puse a mi hija en manos de una persona muy especial para nosotras y lo hiciste con todo el amor, y con un gran profesionalismo. Mi maquillaje me encantó 💕",
-        name: "Diana Gómez y Allison Montesdeoca",
+        name: "Diana G. y Allison M.",
     },
     {
         text: "Mi Diana bella, te escribo para agradecerte por todo lo que hiciste por mí de verdad estoy feliz todos miraban y decían estas hermosa, les encantó tu maquillaje. Definitivamente 👌 una gran profesional",
-        name: "Janeth",
+        name: "Janeth M.",
     },
     {
         text: "Hola Dianita buenos días! muchas gracias por toda tu ayuda el día de ayer la verdad que el maquillaje estuvo excelente, no tuve ningún problema y me duró todas las horas que nunca imaginé!... Un gusto conocerte Dianita, muy profesional como te dije y ya voy a recomendarte con todas mis amigas, un abrazo!",
-        name: "Ana Vila",
+        name: "Ana V.",
     },
     {
         text: "No quería dejar pasar mi agradecimiento hacia usted y su impecable trabajo!! Estuve hermosa toda la noche, el peinado y maquillaje quedaron intactos a pesar de que lloré y que todos me abrazaban, no sabe cuán agradecida estoy con usted, todas las novias en su día especial deberían tener una cómplice tan linda y profesional! Gracias por darme paz en todo momento! le mando un abrazo gigantesco.",
-        name: "Cami Vizcaino",
+        name: "Cami V.",
     },
 ]
 

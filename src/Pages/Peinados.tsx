@@ -3,25 +3,25 @@ import SEO from "../components/SEO.tsx";
 
 const peinados = [
     {
-        nombre: "Recogido bajo con accesorio floral",
+        nombre: "Recogido bajo",
         imagen:
             "https://res.cloudinary.com/dzzdheubl/image/upload/v1771879760/pe1_s8uzo2.jpg",
         texto:
-            "Recogido bajo con trenzado suave y acabado pulido, realzado con un delicado accesorio floral que aporta un toque romántico y sofisticado, ideal para novias que buscan elegancia y naturalidad.",
+            "Recogido bajo con trenzado suave y acabado pulido realzando elegancia y naturalidad.",
     },
     {
-        nombre: "Semirrecogido con ondas y tocado",
+        nombre: "Semirrecogido con ondas",
         imagen:
             "https://res.cloudinary.com/dzzdheubl/image/upload/v1771879761/p2_i7tyy1.jpg",
         texto:
-            "Semirrecogido con ondas suaves y volumen natural, complementado con un delicado tocado que aporta elegancia con un estilo perfecto para novias.",
+            "Semirrecogido con ondas suaves y volumen natural, un estilo perfecto para novias.",
     },
     {
         nombre: "Semirrecogido con ondas largas",
         imagen:
             "https://res.cloudinary.com/dzzdheubl/image/upload/v1771879762/p5_us7qsu.jpg",
         texto:
-            "Semirrecogido con ondas largas y definidas que caen con naturalidad, adornado con un delicado tocado brillante que aporta un toque sofisticado al peinado nupcial.",
+            "Semirrecogido con ondas largas y definidas que caen con naturalidad, un estilo sofisticado para peinado nupcial.",
     },
     {
         nombre: "Recogido bajo elegante con textura",
@@ -31,11 +31,11 @@ const peinados = [
             "Recogido bajo con textura suave y volumen natural, elaborado con mechones entrelazados que crean un acabado sofisticado y delicado, ideal para un estilo elegante y atemporal.",
     },
     {
-        nombre: "Ondas sueltas con tocado delicado",
+        nombre: "Ondas sueltas",
         imagen:
             "https://res.cloudinary.com/dzzdheubl/image/upload/v1771528570/peinado1_vszsjs.jpg",
         texto:
-            "Cabello suelto con ondas suaves y definidas que aportan movimiento y elegancia, complementado con un delicado tocado que realza un estilo romántico y natural.",
+            "Cabello suelto con ondas suaves y definidas que aportan movimiento, elegancia y naturalidad.",
     },
 
 ]

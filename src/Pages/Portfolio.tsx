@@ -53,7 +53,7 @@ const images = [
     "https://res.cloudinary.com/dzzdheubl/image/upload/v1771965280/art1_uchhhn.jpg",
     "https://res.cloudinary.com/dzzdheubl/image/upload/v1771965282/art4_phpruj.jpg",
     "https://res.cloudinary.com/dzzdheubl/image/upload/v1771965291/art5_cwlfpc.jpg",
-    "https://res.cloudinary.com/dzzdheubl/image/upload/v1771965340/WhatsApp_Image_2026-02-22_at_2.18.52_PM_2_j4azff.jpg",
+    "https://res.cloudinary.com/dzzdheubl/image/upload/v1772052483/art7_xbn0kx.jpg",
     "https://res.cloudinary.com/dzzdheubl/image/upload/v1771965392/WhatsApp_Image_2026-02-22_at_2.30.05_PM_1_jxluba.jpg",
     "https://res.cloudinary.com/dzzdheubl/image/upload/v1771965392/WhatsApp_Image_2026-02-22_at_2.22.09_PM_m2ixx9.jpg",
     "https://res.cloudinary.com/dzzdheubl/image/upload/v1771965393/WhatsApp_Image_2026-02-22_at_2.22.11_PM_2_ia6bac.jpg",
