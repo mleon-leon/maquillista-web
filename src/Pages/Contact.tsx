@@ -116,50 +116,47 @@ export default function Contact() {
 
             </div>
 
-            {/* ================= FORM ================= */}
+            {/* ================= RESERVA WHATSAPP ================= */}
             <div className="pb-32 px-6">
-                <div className="max-w-4xl mx-auto">
+                <div className="max-w-3xl mx-auto text-center">
 
-                    <h2 className="text-3xl font-serif text-center text-gray-900 mb-16">
-                        Reserva tu experiencia
-                    </h2>
+                    <motion.h2
+                        initial={{ opacity: 0, y: 40 }}
+                        whileInView={{ opacity: 1, y: 0 }}
+                        transition={{ duration: 1 }}
+                        className="text-3xl md:text-4xl font-serif text-gray-900 mb-6"
+                    >
+                        Agenda tu cita conmigo
+                    </motion.h2>
 
-                    <form className="grid md:grid-cols-2 gap-8">
+                    <motion.p
+                        initial={{ opacity: 0 }}
+                        whileInView={{ opacity: 1 }}
+                        transition={{ duration: 1.2 }}
+                        className="text-gray-600 leading-relaxed mb-12"
+                    >
+                        Escríbeme directamente por WhatsApp para recibir información personalizada,
+                        disponibilidad de fechas y asesoría para tu evento especial.
+                    </motion.p>
 
-                        <input
-                            type="text"
-                            placeholder="Nombre"
-                            className="border-b border-gray-400 text-gray-800 placeholder-gray-400 py-3 bg-transparent outline-none focus:border-[#C0847A] focus:placeholder-[#C0847A]/60 transition"
-                        />
-
-                        <input
-                            type="text"
-                            placeholder="Teléfono"
-                            className="border-b border-gray-400 text-gray-800 placeholder-gray-400 py-3 bg-transparent outline-none focus:border-[#C0847A] focus:placeholder-[#C0847A]/60 transition"
-                        />
-
-                        <input
-                            type="email"
-                            placeholder="Correo electrónico"
-                            className="border-b border-gray-400 text-gray-800 placeholder-gray-400 py-3 bg-transparent outline-none focus:border-[#C0847A] focus:placeholder-[#C0847A]/60 transition md:col-span-2"
-                        />
-
-                        <textarea
-                            placeholder="Mensaje"
-                            rows={5}
-                            className="border-b border-gray-400 text-gray-800 placeholder-gray-400 py-3 bg-transparent outline-none focus:border-[#C0847A] focus:placeholder-[#C0847A]/60 transition md:col-span-2 resize-none"
-                        />
-
-                        <div className="md:col-span-2 text-center mt-12">
-                            <button
-                                type="submit"
-                                className="bg-[#C0847A] text-white px-14 py-4 rounded-full tracking-[0.25em] text-sm hover:bg-[#b3746b] transition duration-300"
-                            >
-                                ENVIAR
-                            </button>
-                        </div>
-
-                    </form>
+                    <motion.a
+                        href="https://api.whatsapp.com/send?phone=593996389748&text=Hola Diana, quiero información sobre maquillaje profesional."
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        whileHover={{ scale: 1.05 }}
+                        whileTap={{ scale: 0.97 }}
+                        className="inline-flex items-center gap-3
+                 bg-[#C0847A]
+                 text-white
+                 px-10 py-4
+                 rounded-full
+                 tracking-[0.2em]
+                 text-sm
+                 transition duration-300
+                 hover:bg-[#b3746b]"
+                    >
+                        RESERVAR
+                    </motion.a>
 
                 </div>
             </div>
