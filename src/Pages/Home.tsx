@@ -8,7 +8,7 @@ export default function Home() {
     return (
         <>
             <SEO
-                title="Diana Rodríguez | Maquillaje Profesional en Quito"
+                title="Diana R. Portilla Makeup"
                 description="Maquillaje profesional para novias y eventos sociales en Quito. Elegancia, duración y estilo personalizado."
             />
 
