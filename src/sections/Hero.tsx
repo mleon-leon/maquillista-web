@@ -8,7 +8,7 @@ export default function Hero() {
         <>
             {/* 🔥 SEO PROFESIONAL */}
             <SEO
-                title="Maquillaje Profesional en Quito | Diana Rodríguez"
+                title="Diana R. Portilla | Maquillaje Profesional en Quito "
                 description="Servicio de maquillaje profesional en Quito para eventos especiales, graduaciones y celebraciones. Looks elegantes, duraderos y personalizados."
                 url="PENDIENTE"
                 image="https://res.cloudinary.com/dzzdheubl/image/upload/v1771454621/novia1antes_ftbuhi.jpg"
