@@ -43,12 +43,11 @@ const peinados = [
 export default function Peinado() {
     return (
         <>
-            {/* 🔥 SEO PROFESIONAL */}
             <SEO
-                title="Peinados para eventos en Quito | Diana Rodríguez"
-                description="Servicio de peinados en Quito para eventos especiales, graduaciones y celebraciones. Looks elegantes, duraderos y personalizados."
-                url="PENDIENTE"
-                image="https://res.cloudinary.com/dzzdheubl/image/upload/v1771528571/peinado2_tuf1do.jpg"
+                title="Diana R. Portilla | Peinados profesionales en Quito"
+                description="Servicio de peinados profesional en Quito para todo tipo de eventos."
+                url="https://dkrpmakeup.com/"
+                image="https://res.cloudinary.com/dzzdheubl/image/upload/v1772202352/favicon_sizzkm.png"
             />
 
 

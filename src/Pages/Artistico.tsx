@@ -42,12 +42,11 @@ const artistico = [
 export default function Artistico() {
     return (
         <>
-            {/* 🔥 SEO PROFESIONAL */}
             <SEO
-                title="Maquillaje Artístico en Quito | Diana Rodríguez"
-                description="Servicio de maquillaje artístico y creativo en Quito para producciones editoriales, sesiones fotográficas y eventos temáticos. Propuestas únicas y de alto impacto visual."
-                url="PENDIENTE"
-                image="https://res.cloudinary.com/dzzdheubl/image/upload/v1771883675/art5_zoq9sg.jpg"
+                title="Diana R. Portilla | Maquillaje Profesional en Quito"
+                description="Servicio de maquillaje profesional en Quito para todo tipo de eventos."
+                url="https://dkrpmakeup.com/"
+                image="https://res.cloudinary.com/dzzdheubl/image/upload/v1772202352/favicon_sizzkm.png"
             />
 
             <section className="bg-[#F8F5F0] pt-32 pb-32 px-6">

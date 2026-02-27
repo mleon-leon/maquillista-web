@@ -6,12 +6,11 @@ import SEO from "../components/SEO.tsx";
 export default function Hero() {
     return (
         <>
-            {/* 🔥 SEO PROFESIONAL */}
             <SEO
-                title="Diana R. Portilla | Maquillaje Profesional en Quito "
-                description="Servicio de maquillaje profesional en Quito para eventos especiales, graduaciones y celebraciones. Looks elegantes, duraderos y personalizados."
-                url="PENDIENTE"
-                image="https://res.cloudinary.com/dzzdheubl/image/upload/v1771454621/novia1antes_ftbuhi.jpg"
+                title="Diana R. Portilla | Maquillaje Profesional en Quito"
+                description="Servicio de maquillaje profesional en Quito para todo tipo de eventos."
+                url="https://dkrpmakeup.com/"
+                image="https://res.cloudinary.com/dzzdheubl/image/upload/v1772202352/favicon_sizzkm.png"
             />
 
         <section

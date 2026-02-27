@@ -45,8 +45,8 @@ export default function Social() {
             <SEO
                 title="Maquillaje Social en Quito | Diana Rodríguez"
                 description="Servicio de maquillaje social profesional en Quito para eventos especiales, graduaciones y celebraciones. Looks elegantes, duraderos y personalizados."
-                url="PENDIENTE"
-                image="https://res.cloudinary.com/dzzdheubl/image/upload/v1771524482/social2_ilkmkm.jpg"
+                url="https://dkrpmakeup.com/"
+                image="https://res.cloudinary.com/dzzdheubl/image/upload/v1772202352/favicon_sizzkm.png"
             />
 
             <section className="bg-[#F8F5F0] pt-32 pb-32 px-6">

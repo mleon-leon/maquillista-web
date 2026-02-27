@@ -60,8 +60,8 @@ export default function Bodas() {
             <SEO
                 title="Maquillaje de Novias en Quito | Diana Rodríguez"
                 description="Servicio de maquillaje para novias profesional en Quito. maquillajes elegantes, duraderos y personalizados."
-                url="PENDIENTE"
-                image="https://res.cloudinary.com/dzzdheubl/image/upload/v1771454621/novia1antes_ftbuhi.jpg"
+                url="https://dkrpmakeup.com/"
+                image="https://res.cloudinary.com/dzzdheubl/image/upload/v1772202352/favicon_sizzkm.png"
             />
 
             <section className="bg-[#F8F5F0] pt-32 pb-32 px-6">
