@@ -8,8 +8,10 @@ export default function Home() {
     return (
         <>
             <SEO
-                title="Diana R. Portilla Makeup"
-                description="Maquillaje profesional para novias y eventos sociales en Quito. Elegancia, duración y estilo personalizado."
+                title="Diana R. Portilla | Maquillaje Profesional en Quito"
+                description="Servicio de maquillaje profesional en Quito para eventos especiales, graduaciones y celebraciones. Looks elegantes, duraderos y personalizados."
+                url="https://dkrpmakeup.com/"
+                image="https://res.cloudinary.com/dzzdheubl/image/upload/v1772651686/dkrpmakeup-preview_smnxgl.jpg"
             />
 
             <Hero />
