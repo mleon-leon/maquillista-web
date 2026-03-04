@@ -11,7 +11,7 @@ export default function Home() {
                 title="Diana R. Portilla | Maquillaje Profesional en Quito"
                 description="Servicio de maquillaje profesional en Quito para eventos especiales, graduaciones y celebraciones. Looks elegantes, duraderos y personalizados."
                 url="https://dkrpmakeup.com/"
-                image="https://res.cloudinary.com/dzzdheubl/image/upload/v1772654941/logofianl2-01_nuiybd.jpg"
+                image="https://res.cloudinary.com/dzzdheubl/image/upload/v1772655361/logorosa-01_nj0y8o.jpg"
             />
 
             <Hero />
